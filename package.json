@@ -1,0 +1,32 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "SaveUkrainianFolk.org NFT collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SaveUkrainianFolk@github.com/SaveUkrainianFolk/nft.git"
+  },
+  "author": "@MaxSchnaider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaveUkrainianFolk/nft/issues"
+  },
+  "homepage": "https://github.com/SaveUkrainianFolk/nft#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "erc721a": "^3.1.0",
+    "hardhat": "^2.9.3",
+    "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
